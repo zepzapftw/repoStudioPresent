@@ -1,0 +1,38 @@
+.opiscss{
+    display: inline-flex;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.txtnaziv{
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 34px;
+}
+.text1{
+    margin-left: 50px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+.text2{
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.Saznaj{
+    position: relative;
+    margin-left: 50px;
+    background-color: rgba(191, 15, 15, 1);
+    width: 184px;
+    height: 48px;
+    gap:8px;
+    margin-top: 80px;
+    color: white;
+    border-radius: 5px;
+}
