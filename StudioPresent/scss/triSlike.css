@@ -1,0 +1,6 @@
+.sliketri{
+    display: flex;
+    justify-content: space-between;
+    height: 75%;
+    width: 75%;
+}

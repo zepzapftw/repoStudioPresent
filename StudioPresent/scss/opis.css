@@ -1,4 +1,5 @@
 .opiscss{
+    margin-top: 50px;
     display: inline-flex;
 }
 p{
@@ -32,7 +33,18 @@ p{
     width: 184px;
     height: 48px;
     gap:8px;
-    margin-top: 80px;
+    margin-top: 40px;
     color: white;
     border-radius: 5px;
+}
+.linija1{
+    height: 10px;
+    width: 70px;
+    background-color: rgba(191, 15, 15, 1);
+    border: none;
+    margin-left: 50px;
+}
+.linija2{
+    background-color: aliceblue;
+    margin-left: 50px;
 }
