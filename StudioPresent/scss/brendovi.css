@@ -1,7 +1,55 @@
 .brendovi-tekst {
   font-family: Inter;
   font-weight: 400;
-  size: 28px;
+  font-size: 28px;
   line-height: 34px;
-  align-self: center;
+  text-align: center;
+}
+
+.brendovi {
+  margin-top: 200px;
+  align-items: center;
+}
+
+.brendovi-tekst-div {
+  align-items: center;
+  text-align: center;
+}
+
+.brendovi-slika {
+  align-items: center;
+  overflow: hidden;
+  margin: 0px;
+  margin-left: 130px;
+}
+
+.brendovi-line {
+  align-content: center;
+  width: 400px;
+  color: gray;
+  background-color: grey;
+  margin-bottom: 100px;
+}
+
+.brendovi-button {
+  height: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(197, 1, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 574.5px;
+  margin-bottom: 100px;
+}
+
+.brendovi-button:hover {
+  background-color: rgb(121, 14, 14);
+}
+
+.card {
+  width: 100%;
+  overflow: hidden;
 }/*# sourceMappingURL=brendovi.css.map */
