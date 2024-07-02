@@ -1,0 +1,15 @@
+.gornji-deo {
+  background-image: url(../slike/EndCard.png);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.logo {
+  padding-top: 50px;
+}
+
+.vertical-line1 {
+  width: 3px;
+  height: 150px;
+}/*# sourceMappingURL=end-card.css.map */
