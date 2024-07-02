@@ -26,8 +26,7 @@ p{
     font-size: 14px;
     line-height: 22px;
 }
-.Saznaj{
-    position: relative;
+.Saznaj{    
     margin-left: 50px;
     background-color: rgba(191, 15, 15, 1);
     width: 184px;
@@ -36,10 +35,11 @@ p{
     margin-top: 40px;
     color: white;
     border-radius: 5px;
+    
 }
 .linija1{
     height: 10px;
-    width: 70px;
+    width: 50px;
     background-color: rgba(191, 15, 15, 1);
     border: none;
     margin-left: 50px;

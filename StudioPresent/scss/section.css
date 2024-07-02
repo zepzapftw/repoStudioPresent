@@ -17,13 +17,14 @@
 }
 .prvo{
     display: inline-block;
-    margin-left: 7%;
+    margin-left: 80px;
 }
 .zadnje{
     display: inline-block;
-    margin-right: 7%;
+    margin-right: 105px;
 }
 .section{
+    overflow: hidden;
     position: relative;
     white-space: nowrap;
     margin-left: 0px;

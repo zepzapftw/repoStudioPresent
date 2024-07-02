@@ -14,11 +14,10 @@ p{
 .header{
     display: flex;
     background-color: rgba(217, 217, 217, 1);
-    height:75px;
-    width:1440px;
     align-content: flex;
     align-items: center;
     flex-direction: row;
+    overflow: hidden;
 }
 .logo{
     text-align: left;

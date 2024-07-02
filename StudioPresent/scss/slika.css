@@ -1,8 +1,13 @@
 .container{
     position: relative;
+    overflow: hidden;
 }
 .arrow{
     position: absolute;
-    top: 600px;
+    top: 550px;
     left: 691px;
+}
+.video{
+    max-width: 100%;
+    overflow: hidden;
 }
