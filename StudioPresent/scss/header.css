@@ -32,3 +32,6 @@ p{
     align-content: flex;
     align-items: center
 }
+.phone-expand{
+    display: none;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="scss/brojke.css">
     <link rel="stylesheet" href="scss/brendovi.css">
     <link rel="stylesheet" href="scss/nasiProzvodi.css">
+    <link rel="stylesheet" href="scss/headerPhone.css">
     <link rel="stylesheet" href="scss/slikapouzdano.css"/>
     <link rel="stylesheet" href="scss/triSlike.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,6 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   </head>
 
   <body>
@@ -34,6 +36,11 @@
         <p>Srpski</p>
         <p><u>English</u></p>
         <p><u>Magyar</u></p>
+      </div>
+      <div class="phone-expand">
+        <hr>
+        <hr>
+        <hr>
       </div>
     </div>
     <div class="section">
@@ -69,8 +76,13 @@
       <img src="slike/Video.png" class="video" />
       <img src="slike/arrow-down-circle.png" class="arrow" />
     </div>
-    <div class="opiscss">
-        <img src="slike/dvgzgrada.png" class="zgrada"/>
+
+    <div class="container-opis">
+
+      <div class="zgrada">
+        <img src="slike/dvgzgrada.png" />
+      </div>
+
       <div class="opis">
         <div class="naziv">
           <p class="txtnaziv">DVG Company</p>
@@ -81,8 +93,6 @@
             Veleprodaja i maloprodaja kozmetike i kućne hemije
           </p>
           <hr class="linija2" />
-        </div>
-        <div class="opis2">
           <p class="text2">
             DVG Company d.o.o. je trgovinsko preduzeće osnovano 2008. godine u
             Subotici.<br />
@@ -95,35 +105,43 @@
             koji zadovoljava sve segmente u pogledu smeštaja, čuvanja i
             plasiranja robe.
           </p>
-          <button class="Saznaj">Saznaj vise</button>
         </div>
+        <div class="dugme"><button class="Saznaj">Saznaj vise</button></div>
       </div>
     </div>
     <div class="pouzdanaDistribucija">
       <img
         class="kamioni"
-        src="slike/kamioni.png"
-        style="position: relative; margin-top: 60px; max-width: 100%;margin-bottom: 100px;"
-      />
+        src="slike/kamioni.png"/>
     </div>
+
+
     <div class="sliketri">
+
       <div class="biznis">
         <img class="slikabiznis" src="slike/biznis.png" />
-        <p class="tekst1">POSTANITE NAŠ PARTNER</p>
+        <p class="tekst1"><a href="">POSTANITE NAŠ PARTNER</a></p>
         <hr class ="line-partner">
       </div>
-      <div class="sprej">
+
+      <div class="sprej">        
         <img class="slikapesticid" src="slike/sprej.png" />
-        <p class="tekst2">NAŠI PROIZVODI</p>
+        <p class="tekst2"><a href="">NAŠI PROIZVODI</a></p>
         <hr class="line-proizvod">
-      </div class>
+      </div>
+
+
       <div class="dvgkamioni">
         <img class="slikaKamion" src="slike/dvgkamioni.png" />
         <hr class="line-naslici">
-        <p class="tekst3">UVOZ IZ MAĐARSKE</p>
+        <p class="tekst3"><a href="">UVOZ IZ MAĐARSKE</a></p>
         <hr class="line-uvoz">
       </div>
+
     </div>
+
+
+
     <div class="brojke">
         <div class="broje-knaziv">
             <p><span class="brojke-DVG">DVG Company</span><br><span class="brojke-2">u brojkama</span></p>
@@ -133,6 +151,7 @@
             <img src="slike/brojke.png  ">
         </div>
     </div>
+
     <div class="nasiProizvodiBoja">
     <div class="nasiProizvodi">
         <div class="tekstoviNasiProizvodi">

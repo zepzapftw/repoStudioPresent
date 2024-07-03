@@ -1,27 +1,6 @@
 .sliketri {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-}
-
-.biznis {
-  display: inline;
-  padding-left: 10px;
-  text-align: left;
-  margin-left: 15px;
-}
-
-.sprej {
-  display: inline;
-  padding-left: 10px;
-  text-align: left;
-}
-
-.dvgkamioni {
-  display: inline;
-  padding-left: 10px;
-  text-align: left;
-  margin-right: 15px;
 }
 
 .line-partner, .line-proizvod, .line-uvoz {

@@ -1,4 +1,4 @@
-.opiscss{
+.container-opis{
     margin-top: 50px;
     display: inline-flex;
 }
@@ -49,5 +49,9 @@ p{
     margin-left: 50px;
 }
 .zgrada{
-    size:90%;
+    width: auto;
+    height: auto;
+}
+.zgrada1{
+    display: none;
 }
