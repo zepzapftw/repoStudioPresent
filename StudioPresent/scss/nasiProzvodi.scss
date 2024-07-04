@@ -38,7 +38,7 @@
 }
 .nasiProizvodiBoja{
     background-color: rgba(236, 236, 236, 0.493);
-   padding-bottom: 100px;
+    margin: 0px;   
 }
 .glavniProizvod{
     font-family: Inter;
@@ -70,4 +70,7 @@
 img{
     max-width: 100%;
     height: auto;
+}
+.swiper-sve{
+    display: none;
 }

@@ -10,21 +10,20 @@
     <link rel="stylesheet" href="scss/brendovi.css">
     <link rel="stylesheet" href="scss/nasiProzvodi.css">
     <link rel="stylesheet" href="scss/headerPhone.css">
-    <link rel="stylesheet" href="scss/slikapouzdano.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="scss/slikapouzdano.css" />
     <link rel="stylesheet" href="scss/triSlike.css" />
+    <script src="javascript/hamburgerMenu.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      rel="stylesheet" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
@@ -37,11 +36,19 @@
         <p><u>English</u></p>
         <p><u>Magyar</u></p>
       </div>
-      <div class="phone-expand">
+      <div class="phone-expand" type="button" onclick="hamburger()">
         <hr>
         <hr>
         <hr>
       </div>
+    </div>
+    <div id="HambugerLinks">
+      <a class="stvari" href="#onama">O NAMA</a>
+      <a class="stvari" href="#dvgCompany">DVG PROIZVODI</a>
+      <a class="stvari" href="#distribucija">DISTRIBUCIJA</a>
+      <a class="stvari" href="#saradnja">SARDANJA</a>
+      <a class="stvari" href="#novosti">NOVOSTI</a>
+      <a class="stvari" href="#kontakt">KONTAKT</a>
     </div>
     <div class="section">
         <div class="prvo">
@@ -79,8 +86,8 @@
 
     <div class="container-opis">
 
-      <div class="zgrada">
-        <img src="slike/dvgzgrada.png" />
+      <div class="zgrada" >
+        <img src="slike/dvgzgrada.png"/>
       </div>
 
       <div class="opis">
@@ -120,13 +127,13 @@
 
       <div class="biznis">
         <img class="slikabiznis" src="slike/biznis.png" />
-        <p class="tekst1"><a href="">POSTANITE NAŠ PARTNER</a></p>
+        <p class="tekst1">POSTANITE NAŠ PARTNER</p>
         <hr class ="line-partner">
       </div>
 
       <div class="sprej">        
         <img class="slikapesticid" src="slike/sprej.png" />
-        <p class="tekst2"><a href="">NAŠI PROIZVODI</a></p>
+        <p class="tekst2">NAŠI PROIZVODI</p>
         <hr class="line-proizvod">
       </div>
 
@@ -134,7 +141,7 @@
       <div class="dvgkamioni">
         <img class="slikaKamion" src="slike/dvgkamioni.png" />
         <hr class="line-naslici">
-        <p class="tekst3"><a href="">UVOZ IZ MAĐARSKE</a></p>
+        <p class="tekst3">UVOZ IZ MAĐARSKE</a></p>
         <hr class="line-uvoz">
       </div>
 
@@ -189,7 +196,47 @@
           </div>
         </div>
       </div>
-    </div>
+      <div class="swiper-sve">
+        <swiper-container class="mySwiper" navigation="false">
+          <swiper-slide>
+            <div class="div-folije">
+              <img src="slike/Folije.png" class="folije">
+              <p class="tekstFolije">KESE I FOLIJE</p>
+              <hr class="folije-line">
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="div-ZaKuhinju">
+              <img src="slike/ZaKuhinju.png" class="zaKuhiju">
+              <p class="tekstKuhinja">ZA KUHINJU</p>
+              <hr class="kuhinja-line">
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="div-Ubrusi">
+              <img src="slike/Ubrusi.png" class="Ubrusi">
+              <p class="tekstUbrusi">UBRUSI I TOALET PAPIRI</p>
+              <hr class="ubrusi-line">
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="div-Kozmetika">
+              <img src="slike/Kozmetika.png" class="kozmetika">
+              <p class="tekstKozmetika">KOZMETIKA</p>
+              <hr class="kozmetika-line">
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="div-Kante">
+              <img src="slike/Kante.png" class="kante">
+              <p class="tekstKante">PLASTIČNE KANTE</p>
+              <hr class="kante-line">
+            </div>
+          </swiper-slide>
+        </swiper-container>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+      </div>
+    
     <div class="brendovi">
         <div class="brendovi-tekst-div">
             <p class="brendovi-tekst">Istaknuti brendovi za koje radimo <br>distribuciju</p>
@@ -272,5 +319,7 @@
       </div>
 
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
