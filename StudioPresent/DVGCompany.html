@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="scss/end-card.css">
     <link rel="stylesheet" href="scss/brojke.css">
     <link rel="stylesheet" href="scss/brendovi.css">
+    <link rel="stylesheet" href="scss/popup.css">
     <link rel="stylesheet" href="scss/nasiProzvodi.css">
     <link rel="stylesheet" href="scss/headerPhone.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -27,6 +28,7 @@
   </head>
 
   <body>
+    <div></div>
     <div class="header">
       <div class="logo">
         <img src="slike/logo.svg" />
@@ -42,6 +44,7 @@
         <hr>
       </div>
     </div>
+
     <div id="HambugerLinks">
       <a class="stvari" href="#onama">O NAMA</a>
       <a class="stvari" href="#dvgCompany">DVG PROIZVODI</a>
@@ -50,6 +53,7 @@
       <a class="stvari" href="#novosti">NOVOSTI</a>
       <a class="stvari" href="#kontakt">KONTAKT</a>
     </div>
+
     <div class="section">
         <div class="prvo">
             <div class="Sekcija1">
@@ -116,12 +120,12 @@
         <div class="dugme"><button class="Saznaj">Saznaj vise</button></div>
       </div>
     </div>
+
     <div class="pouzdanaDistribucija">
       <img
         class="kamioni"
         src="slike/kamioni.png"/>
     </div>
-
 
     <div class="sliketri">
 
@@ -147,8 +151,6 @@
 
     </div>
 
-
-
     <div class="brojke">
         <div class="broje-knaziv">
             <p><span class="brojke-DVG">DVG Company</span><br><span class="brojke-2">u brojkama</span></p>
@@ -159,7 +161,6 @@
         </div>
     </div>
 
-    <div class="nasiProizvodiBoja">
     <div class="nasiProizvodi">
         <div class="tekstoviNasiProizvodi">
             <p class="glavniProizvod">Naši Proizvodi</p>
@@ -196,7 +197,8 @@
           </div>
         </div>
       </div>
-      <div class="swiper-sve">
+
+    <div class="swiper-sve">
         <swiper-container class="mySwiper" navigation="false">
           <swiper-slide>
             <div class="div-folije">
@@ -236,7 +238,7 @@
         </swiper-container>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
       </div>
-    
+
     <div class="brendovi">
         <div class="brendovi-tekst-div">
             <p class="brendovi-tekst">Istaknuti brendovi za koje radimo <br>distribuciju</p>
@@ -270,6 +272,7 @@
         </div>
         <button class="brendovi-button">Svi brendovi u našem portfoliju</button>
     </div>
+
     <div class="end-card">
       <div class="gornji-deo">
         <div class="logo">
@@ -320,6 +323,22 @@
 
     </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <div id="popup">
+      <div class="popupText"></div>
+      <p>We use cookies and similar methods to recognize visitors and remember their preferences. <br>
+        We also use them to measure ad campaign effectiveness, target ads and analyze site traffic.<br>
+
+        To learn more about these methods, including how to disable them, view our Cookie Policy.<br>
+         Starting on July 20, 2020 we will show you ads we think are relevant to your interests, <br>
+         based on the kinds of content you access in our Services. You can object. For more info,<br>
+         see our privacy policy.<br>
+        
+        By tapping 'accept,' you consent to the use of these methods by us and third parties.<br> 
+        You can always change your tracker preferences by visiting our Cookie Policy</p>
+
+       <div class=" "><button class="accept-cookies">Accept Cookies</button></div> 
+    </div>
+
   </body>
 </html>
