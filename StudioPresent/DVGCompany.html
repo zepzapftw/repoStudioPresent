@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="scss/slika.css" />
     <link rel="stylesheet" href="scss/opis.css" />
     <link rel="stylesheet" href="scss/end-card.css">
+    <link rel="stylesheet" href="scss/darkmode.css">
     <link rel="stylesheet" href="scss/brojke.css">
     <link rel="stylesheet" href="scss/brendovi.css">
     <link rel="stylesheet" href="scss/popup.css">
@@ -27,8 +28,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <body>
-    <div></div>
+  <body id="stop-scrolling">
+    <div>
     <div class="header">
       <div class="logo">
         <img src="slike/logo.svg" />
@@ -37,6 +38,7 @@
         <p>Srpski</p>
         <p><u>English</u></p>
         <p><u>Magyar</u></p>
+        <input type="checkbox" id="toggle" onclick="darkmode()">
       </div>
       <div class="phone-expand" type="button" onclick="hamburger()">
         <hr>
@@ -82,7 +84,7 @@
             </div>
           </div>
     </div>
-
+    
     <div class="container">
       <img src="slike/Video.png" class="video" />
       <img src="slike/arrow-down-circle.png" class="arrow" />
@@ -205,7 +207,7 @@
               <img src="slike/Folije.png" class="folije">
               <p class="tekstFolije">KESE I FOLIJE</p>
               <hr class="folije-line">
-            </div>
+            </div>  
           </swiper-slide>
           <swiper-slide>
             <div class="div-ZaKuhinju">
@@ -270,12 +272,15 @@
             <p class="textCif">Cif</p>
           </div>
         </div>
-        <button class="brendovi-button">Svi brendovi u našem portfoliju</button>
+        <div class="dugme-brendovi">        
+          <button class="brendovi-button">Svi brendovi u našem portfoliju
+          </button></div>
+
     </div>
 
     <div class="end-card">
       <div class="gornji-deo">
-        <div class="logo">
+        <div class="logo-end">
           <img src="slike/logo.png">
         </div>
         <hr class="vertical-line1">
@@ -323,22 +328,29 @@
 
     </div>
 
+<div id="popup-overlay" class="overlay-popup">
+  <div id="popup" class="popup">
+    <div class="popupContet">
+    <p>We use cookies and similar methods to recognize visitors and remember their preferences. <br>
+      We also use them to measure ad campaign effectiveness, target ads and analyze site traffic.<br>
 
-    <div id="popup">
-      <div class="popupText"></div>
-      <p>We use cookies and similar methods to recognize visitors and remember their preferences. <br>
-        We also use them to measure ad campaign effectiveness, target ads and analyze site traffic.<br>
+      To learn more about these methods, including how to disable them, view our Cookie Policy.<br>
+       Starting on July 20, 2020 we will show you ads we think are relevant to your interests, <br>
+       based on the kinds of content you access in our Services. You can object. For more info,<br>
+       see our privacy policy.<br>
+      
+      By tapping 'accept,' you consent to the use of these methods by us and third parties.<br> 
+      You can always change your tracker preferences by visiting our Cookie Policy</p>
 
-        To learn more about these methods, including how to disable them, view our Cookie Policy.<br>
-         Starting on July 20, 2020 we will show you ads we think are relevant to your interests, <br>
-         based on the kinds of content you access in our Services. You can object. For more info,<br>
-         see our privacy policy.<br>
-        
-        By tapping 'accept,' you consent to the use of these methods by us and third parties.<br> 
-        You can always change your tracker preferences by visiting our Cookie Policy</p>
-
-       <div class=" "><button class="accept-cookies">Accept Cookies</button></div> 
+     <button class="accept-cookies" type="button" onclick="popUPClose()">Accept Cookies</button> 
     </div>
+  </div>
+</div>
 
+
+   
+
+  </div>
   </body>
+  <script src="javascript/popup.js"></script>
 </html>

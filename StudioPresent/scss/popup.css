@@ -1,8 +1,14 @@
-#popup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+.popup {
+  display: block;
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 20%;
+  bottom: 30%;
+  background-color: #e0dede;
+  padding: 30px;
+  border-radius: 5px;
+  height: 55%;
 }
 
 .accept-cookies {
@@ -14,4 +20,32 @@
   padding-bottom: 10px;
   margin-top: 20px;
   border-radius: 8px;
+}
+
+.overlay-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popupContet {
+  text-align: center;
+}
+
+#stop-scrolling {
+  height: 100%;
+  overflow: none;
+}
+
+.dark-mode {
+  background-color: rgba(12, 7, 7, 0.788);
+  color: white;
+}
+.dark-mode .tekstFolije, .dark-mode .tekstKuhinja, .dark-mode .tekstUbrusi, .dark-mode .tekstKozmetika, .dark-mode .tekstKante, .dark-mode .popupContet {
+  color: black;
 }/*# sourceMappingURL=popup.css.map */

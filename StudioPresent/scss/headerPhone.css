@@ -85,7 +85,12 @@
   }
   /* *{ border: 1px solid black; }*/
   .brendovi-button {
-    display: none;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 50px;
   }
   .sliketri {
     display: flex;
@@ -158,5 +163,55 @@
     margin: 0px;
     margin-left: 30%;
     width: 40%;
+  }
+  .brendovi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .brendovi-slike {
+    display: block;
+    justify-self: center;
+    align-content: center;
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+  .brendovi-slike div {
+    display: block;
+    align-content: center;
+    justify-self: center;
+  }
+  .PalmoLive img {
+    margin-left: 30px;
+  }
+  .Cif img {
+    margin-right: 10px;
+  }
+  .lista {
+    display: none;
+  }
+  .vertical-line3, .vertical-line2, .vertical-line1 {
+    display: none;
+  }
+  .gornji-deo {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-end {
+    margin: 0px;
+    display: flex;
+    align-self: center;
+  }
+  .SocialMedia {
+    margin-bottom: 20px;
+  }
+  .brendovi-button {
+    display: block;
+  }
+  .popup {
+    height: 60%;
+    width: 60%;
+    right: 70%;
+    left: 15%;
   }
 }/*# sourceMappingURL=headerPhone.css.map */
